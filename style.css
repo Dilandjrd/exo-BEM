@@ -136,7 +136,7 @@ body {
     padding: 10px;
 }
 
-.footer_text {
+.footer__text {
     color: white;
     text-align: center;
     font-size: 15px;
@@ -146,32 +146,32 @@ body {
     padding-right: 20px;
 }
 
-.logo_section {
+.logo__section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.footer_logo {
+.footer__logo {
     color: rgba(255, 255, 255, 0.5);
     height: 35px;
     width: 35px;
 }
 
-.footer_paragraphe {
+.footer__paragraphe {
     color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
     margin-left: 20px;
 }
 
-.footer_link {
+.footer__link {
     color: white;
     font-weight: bold;
     text-decoration: none;
     margin-left: 10px;
 }
 
-.footer_info {
+.footer__info {
     color: white;
     font-weight: bold;
     margin-left: 60px;
