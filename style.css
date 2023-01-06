@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/noz-portail-149\ 1.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/noz-portail-149-1.png);
     background-size: cover;
     height: 475px;
     display: flex;
@@ -149,13 +149,13 @@ body {
 .logo__section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 80px;
 }
 
 .footer__logo {
     color: rgba(255, 255, 255, 0.5);
-    height: 35px;
-    width: 35px;
+  
 }
 
 .footer__paragraphe {
