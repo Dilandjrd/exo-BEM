@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/noz-portail-149-1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/noz-portail-149-1.png);
     background-size: cover;
     height: 475px;
     display: flex;
@@ -155,7 +155,7 @@ body {
 
 .footer__logo {
     color: rgba(255, 255, 255, 0.5);
-  
+
 }
 
 .footer__paragraphe {
@@ -176,11 +176,56 @@ body {
     font-weight: bold;
     margin-left: 60px;
 }
+
 @media screen and (min-width: 481px) {
 
-}
-@media screen and (min-width: 769px) {
-}
-   
-@media screen and (min-width: 1280px) {
-}
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .nav__title {
+        padding: 5px 100px 5px 10px;
+    }
+
+    .nav__logo {
+        padding: 10px 0px 10px 25px;
+    }
+
+    .nav__links {
+        display: flex;
+        flex-direction: row;
+        margin: 15px 15px 0px 0px;
+    }
+
+    .nav__burger {
+        display: none;
+    }
+
+    .header {
+        margin-top: 0%;
+        height: 600px;
+    }
+
+    .main__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }    
+
+
+    .main__paragraphe {
+        max-width: 400px;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    @media screen and (min-width: 769px) {}
+
+    @media screen and (min-width: 1280px) {}
